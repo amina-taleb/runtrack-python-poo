@@ -43,7 +43,6 @@ class Student :
         return self.__num_etudiant
 #create an object :
 student1 = Student('Doe', 'John', '145', 0, '')
-#print(f"Le nombre de {student1.get_student_nom()} {student1.get_student_prenom()} est de {student1.add_credit(30)} points")
-
-print(f"Le nombre de {student1.get_student_nom()} {student1.get_student_prenom()} est de {student1.add_credit(145)} points")
+print(f"Le nombre de {student1.get_student_nom()} {student1.get_student_prenom()} est de {student1.add_credit(30)} points")
+print(f"Le nombre de {student1.get_student_nom()} {student1.get_student_prenom()} est de {student1.add_credit(45)} points")
 print(student1.student_info())
