@@ -1,4 +1,4 @@
-from job01 import Operation  #Her I call the class Operation
+from jour01.job01 import Operation  #Her I call the class Operation
 
 operation2 =Operation(3, 2)  #her I create an object (instanciation of the class Operation)
 
